@@ -15,6 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 8vh;
     
 }
 .img{
@@ -23,9 +24,9 @@ body{
 }
 .name-h2{
     position: relative;
-    font-size: 14vw;
+    font-size: 10vw;
     color: #fff;
-    -webkit-text-stroke: 0.8vw #383d52;
+    -webkit-text-stroke: 0.3vw #383d52;
     text-transform: uppercase;
 }
 .name-h2::before{
@@ -58,20 +59,147 @@ body{
     left: 0;
 }
 .panels{
-
-}
-.sign_up{
-
-}
-.sign_in{
-
-}
-.sign-in{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 8vh;
+    /* background-color: ; */
+
+}
+.sign_up{
+    z-index: 1;
+    width: 25vw;
+    display: none;
+
+}
+.sign_in{
+    z-index: 0;
+    width: 20vw;
+    
+    
+}
+.sign-in{
+    border:5px solid #01fe87;
+    padding-bottom: 3vh;
+    padding: 2vh;
+    height: 50vh;
+    white-space: nowrap;
+    
+}
+.box1{
+   
+}
+.box1>h2{
+    font-size: 5vh;
+    color: #fff;
+}
+.input-field>i{
+    color: #fff;
+    
+}
+.input-field>input{
+    width: 90%;
+}
+.btnL{
+    position: relative;
+    left: 0.5vw;
+    top: 3vh;
+    border-radius: 10px;
+    width: 95%;
+    height: 3vh;
+    background-color:#01fe87 ;
+}
+
+.social-info{
+    position: relative;
+    top: 4vh;
+    color: #fff;
+    font-size: 1vw;
+}
+.social-media>a>i{
+    color: #fff;
+    position: relative;
+    top: 5vh;
+    left: 30%;
+    padding-left: 1vw;
+    size: 2vw;
+}
+.xx{
+    left: 2%;
+}
+.login-message{
+    color: #fff;
+    position: relative;
+    top: 8vh;
+    left:6%;
+    font-size: 1vw;
+}
+.toggle-btn{
+    height: 2.5vh;
+    width: 20vw;
+    position: relative;
+    left: 22%;
+    top: 1vh;
+    background-color: #01fe87;
+    border-radius: 8px;
+
 }
 
 .sign-up{
+    border:5px solid #01fe87;
+    padding-bottom: 3vh;
+    padding: 2vh;
+    height: 50vh;
+    white-space: nowrap;
+}
+
+.box2>h2{
+    font-size: 5vh;
+    color: #fff;
+}
+.input-field>i{
+    color: #fff;
+}
+.btnS{
+    position: relative;
+    left: 0.5vw;
+    top: 3vh;
+    border-radius: 10px;
+    width: 95%;
+    height: 3vh;
+    background-color:#01fe87 ;
+}
+
+.social-info{
+    position: relative;
+    top: 4vh;
+    color: #fff;
+}
+.social-media>a>i{
+    color: #fff;
+    position: relative;
+    top: 5vh;
+    left: 30%;
+    padding-left: 1vw;
+}
+.login-message{
+    color: #fff;
+    position: relative;
+    top: 8vh;
+    left:10%;
+}
+.login-message>p{
+    position: relative;
+    left: 9%;
+}
+
+.toggle-btn{
+    height: 2.5vh;
+    width: 70%;
+    position: relative;
+    left: 7%;
+    top: 1vh;
+    background-color: #01fe87;
+    border-radius: 8px;
 
 }
