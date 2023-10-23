@@ -1,0 +1,141 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #0077b6;
+    color: #fff;
+}
+
+.navul {
+    list-style: none;
+    display: flex;
+}
+
+.navul li {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.navul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.name-h2 {
+    font-size: 36px;
+}
+
+.heroImg img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px;
+}
+
+.problem p,
+.service p,
+.ourWork div {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.ourWork div {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navul {
+        flex-direction: column;
+    }
+
+    .navul li {
+        margin: 10px 0;
+    }
+
+    .upper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heading {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .name-h2 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .heroImg img {
+        max-height: none;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .problem p,
+    .service p {
+        font-size: 18px;
+    }
+
+    .ourWork div {
+        padding: 10px;
+    }
+}
