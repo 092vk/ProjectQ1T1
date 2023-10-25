@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    max-width: 100%vw;
+    max-width: 70vw;
     margin: 0 auto;
     background-color: #9ed5e3;
     border-radius: 5px;
@@ -38,7 +38,17 @@ body {
     margin-right: 20px;
     font-weight: bold;
 }
+.navul li a {
+    text-decoration: none; 
+    color: #aaf30d; 
+    transition: color 0.3s; 
+}
 
+.navul li a:hover {
+    color: #4bc935;
+    text-decoration: underline; 
+    font-size: larger;
+}
 .navul a {
     text-decoration: none;
     color: #fff;
@@ -79,16 +89,34 @@ body {
     font-weight: 600;
     color: #086b3d;
 }
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #d7ae78;
-    border-radius: 5px;
-    resize: vertical;
+.service>div>p{
+    font-size: 3.5vh;
+    color: #12067d;
+    font-weight: 500;
+    
 }
 
+.search-button{
+    height: 4vh;
+    border-radius: 5px;
+    background-color: #29a0e0;
+    color: #fff;
+}
+textarea {
+    width: 95%;
+    padding: 10px;
+    padding-right: 10px;
+    border: 0.3vw solid #63630b;
+    border-radius: 5px;
+    resize: vertical;
+    height: 30vh;
+}
+textarea>::placeholder{
+    color: #4bc935;
+}
 .ourWork div {
-    background-color: #fff;
+    margin-top: 10vh;
+    background-color: #2462be;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -96,7 +124,7 @@ textarea {
 
 .footer {
     background-color: #0077b6;
-    color: #fff;
+    color: #7992e2;
     padding: 10px;
     text-align: center;
 }
