@@ -1,19 +1,19 @@
-/* Reset some default styles */
-body, h1, h2, p {
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+body {
     margin: 0;
     padding: 0;
-}
-
-/* Apply some basic styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    box-sizing: border-box;
+    background-color: #4d69e5;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main {
-    max-width: 1200px;
+    max-width: 100%vw;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #9ed5e3;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -26,6 +26,7 @@ body {
     padding: 20px;
     background-color: #0077b6;
     color: #fff;
+    border: 0.8vw solid rgb(31, 2, 58);
 }
 
 .navul {
@@ -69,16 +70,19 @@ body {
 }
 
 .problem p,
-.service p,
 .ourWork div {
-    font-size: 20px;
+    font-size: 2vh;
     margin-bottom: 10px;
 }
-
+.service>p{
+    font-size: 6vh;
+    font-weight: 600;
+    color: #086b3d;
+}
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #d7ae78;
     border-radius: 5px;
     resize: vertical;
 }
@@ -97,45 +101,3 @@ textarea {
     text-align: center;
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .navul {
-        flex-direction: column;
-    }
-
-    .navul li {
-        margin: 10px 0;
-    }
-
-    .upper {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .heading {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .name-h2 {
-        font-size: 28px;
-        margin-top: 10px;
-    }
-
-    .heroImg img {
-        max-height: none;
-    }
-
-    .content {
-        padding: 10px;
-    }
-
-    .problem p,
-    .service p {
-        font-size: 18px;
-    }
-
-    .ourWork div {
-        padding: 10px;
-    }
-}
