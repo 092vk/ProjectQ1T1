@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
 
-import { getAuth,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAuthStateChanged,signOut } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
+import { getAuth,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAuthStateChanged,signOut ,GoogleAuthProvider , signInWithPopup } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
 
 const firebaseConfig = {
 apiKey: "AIzaSyDPXBKkZH_VIQ27Sw01RSpaa2HFA6bpDp4",
@@ -17,11 +17,14 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 const auth = getAuth(app);
+const provider =new GoogleAuthProvider();
+
 
 const authForm = document.querySelector(".containerOne");
 const userEmail = document.querySelector("#username");
 const userPassword = document.querySelector("#password");
 const signUpButton = document.querySelector("#btnL");
+const gogly =document.getElementById("signIn");
 
 const userSignUp = async()=>{
     const signUpEmail = userEmail.value;
@@ -38,6 +41,18 @@ const userSignUp = async()=>{
         const errorMessage = error.message;
         console.log(errorCode + error.Message);
         alert("signUp failed"); 
+    })
+}
+
+const userSignIn = async() => {
+    signInWithPopup(auth,provider)
+    .then((result) => {
+        const user = result.user;
+        console.log(user);
+    })
+    .catch((error) =>{
+        const errorCode = error.code;
+        const errorMessage = error.message;
     })
 }
 
@@ -59,3 +74,4 @@ checkAuthState();
 
 //addEventListners to login btn and call the signUp function 
 signUpButton.addEventListener('click',userSignUp);
+gogly.addEventListener('click',userSignIn);

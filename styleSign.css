@@ -25,7 +25,7 @@ body{
 }
 .name-h2{
     position: relative;
-    font-size: 10vw;
+    font-size: 8.8vw;
     color: #fff;
     -webkit-text-stroke: 0.3vw #383d52;
     text-transform: uppercase;
@@ -42,6 +42,12 @@ body{
     border-right: 3px solid #01fe87;
     overflow: hidden;
     animation: animate 3s linear infinite;
+}
+
+.img:hover{
+    transform: scale(1.3);
+    transition: 0.5s ease;
+    /* box-shadow: 0 0 8px #8adab5; */
 }
 @keyframes animate{
     0%,10%,100%{
@@ -106,7 +112,7 @@ body{
 .input-field>input{
     width: 90%;
 }
-.btnL{
+#btnL{
     /* position: relative; */
     /* left: 0.5vw; */
     /* top: 3vh; */
@@ -123,8 +129,8 @@ body{
     transition: 0.5 ease;
 }
 
-#btnl:hover{
-    transform: scale(1.2);
+#btnL:hover{
+    transform: scale(1.1);
     transition: 0.5s ease;
     box-shadow: 0 0 8px #8adab5;
 }
@@ -195,6 +201,16 @@ body{
     background-color:#01fe87 ;
 }
 
+#logIn{
+    position: relative;
+    top: 4.5vh;
+    left: 1.5vw;
+}
+#logIn:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    box-shadow: 0 0 8px #8adab5;
+}
 .social-info{
     position: relative;
     top: 4vh;
@@ -228,4 +244,15 @@ body{
     background-color: #01fe87;
     border-radius: 8px;
 
+}
+
+.social-icon{
+    position: relative;
+    top: 4.5vh;
+    left: 1.5vw;
+}
+.social-icon:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    box-shadow: 0 0 8px #8adab5;
 }
