@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="q1t1">
+    <meta name="author" content="q1t1">password
     <meta name="description" content="helping farmers increase their profits">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farmy</title>
@@ -25,17 +25,18 @@
                             <h2 style="margin-top: -2rem; margin-bottom: 1.5rem;">Sign Up</h2>
                             <div class="input-field">
                                 <i class="fas fa-user"></i>
-                                <input type="text" placeholder="Enter Name"/>
+                                <input type="text" placeholder="Enter Name"/ id="user">
                             </div>
                             <div class="input-field">
                                 <i class="fas fa-envelope"></i>
-                                <input type="text" placeholder="Email Address"/>
+                                <input type="email" placeholder="Email Address" id="username"/>
                             </div>
                             <div class="input-field">
                                 <i class="fas fa-lock"></i>
-                                <input type="password" placeholder="Set Password"/>
+                                <input type="password" placeholder="Set Password" id="password"/>
                             </div>
-                            <a href="signup.html" ><button type="submit" class="btnL"  id="btnL">SignUp</button></a>
+                            <button type="submit" id="btnL">SignUp</button>
+
                             <p class="social-info">Or Sign Up with social platforms</p>
                             <div class="social-media">
                                 <a href="#" class="social-icon">
@@ -61,7 +62,7 @@
                 </div>
             </div>
     </div>
-    <script src="./app.js"></script>
+    <script  type="module" src="./signup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
