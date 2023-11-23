@@ -1,22 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Farmy/home</title>
-  <link rel="stylesheet" href="./src/logo.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farmy</title>
+    <link rel="icon" href="./src/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./home.css">
+  </head>
+<!-- bootstrap v5 was used  -->
+  <body>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          brand name
+          <!-- <img src="./src/logo.png" alt="brand name "> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link me-5" href="#">Activated</a>
+          </div>
+          <a href="#" class="btn btn-outline-secondary shadow-sm d-sm d-block">Try for free</a>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <!-- text -->
+          <div class="col-md-6">
+            <div class="text">
+              Make webiste with UI Builder faster and better 
+            </div>
+            <div class="buttons">
+              <a href="#" class="btn btn-primary">Study Case</a>
+              <a href="#" class="btn btn-outline-secondary ms-3">live Case</a>
+            </div>
+          </div>
+          <!-- image -->
+          <div class="col-md-6">
+            <img src="./src/heroImg.jpg" alt="heroImg" class="w-100">
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- setup section -->
+    <!-- information section -->
+    <!-- footer section -->
 
-</head>
-<body>
-  <div>
-    <nav class="navbar"></nav>
-    
-  </div>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+
 </html>
