@@ -60,7 +60,7 @@ const checkAuthState = async() =>{
     onAuthStateChanged(auth, user =>{
         if(user){
             //if we find valid user
-            window.location.href="./home.html";
+            window.location.href="./index.html";
         }
         else {
             //if in place of user we found a falsy value 
