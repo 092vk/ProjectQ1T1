@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+
+}
+.abc{
+    /* display: flex; */
+
+}
+.card1{
+    margin: 10vh;
+    margin-left: 15vw;
+}
+.card2{
+    margin: 10vh;
+    margin-left: 15vw;
+}
+.card3{
+    margin: 10vh;
+    margin-left: 15vw;
+}
+.info1,.info2,.info3{
+    display: inline-block;
+    position:relative;
+    left:25vw;
+    right: ;
+    top: ;
+    bottom: 25vh;
+    
+}
+

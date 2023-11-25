@@ -61,7 +61,7 @@ const checkAuthState = async() =>{
 
         if(user){
             //user is found
-            window.location.href="./index.html"
+            window.location.href="./service.html"
         }
         else{
             //user is not found
