@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;1,800&family=Poppins:wght@200&display=swap');
+
+:root{
+    --primary:#3155e7;
+    --primary-dark: #2045d6;
+    --white11: #ffff;
+    --color11-1:#2045d6;
+    --color11-2:#2045d6;
+    --white:#FFFFFF;
+    --body: #fefefe;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #252839;
+}
+
+.btn{
+    border-radius: 8px;
+}
+
+.btn-primary,.btn-outline-secondary{
+    padding: 12px 20px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-dark);
+    color: white;
+}
+
+.btn-outline-secondary{
+    border: 1px solid var(--color11-2);
+    color: var(--white11);
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--color11-2);
+    border: 1px solid var(--color112);
+    color: var(--white11);
+}
+
+.btn-outline-secondary:focus{
+    background-color: var(--color11-2);
+    border: 1px solid var(--color11-2);
+    color: var(--white11);
+}
+
+.navbar.btn-outline-secondary{
+    border: 1px solid var(--color11-2);
+    color: var(--white11);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 16px;
+}
+
+.navbar{
+    padding: 32px 0;
+}
+.navbar-brand{
+    font-size: 10vh;
+    color: white;
+
+}
+.navbar-brand:hover{
+    color: #2045d6;
+}
+
+.navbar-brand img{
+    width:10vw;
+    height: 10vh;
+}
+
+.nav-link{
+    margin-left: 41px;
+    font-size: 16px;
+    color: var(--color11-1);
+}
+
+.navbar-nav,.nav-link.active{
+    font-weight: bold;
+    color: var(--white11);
+}
+
+section.hero{
+    padding: 80px 0;
+}
+
+section.hero .text{
+    font-weight: 800;
+    font-size:48px;
+    line-height: 73px;
+    color: var(--white11);
+}
+
+.buttons{
+    padding-top: 69px;
+}
+
+.buttons .btn{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+/* styling the setup section */
+section.setup{
+    padding: 287px 0;
+}
+.setup h3,p{
+    color: white;
+}
+
+section.setup .text-header h3{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color:var(--white11);
+}
+
+section.setup .text-header p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color:var(--color11-1);
+    padding: 27px 0;
+}
+
+section.setup .icons{
+    padding: 27px 0;
+}
+
+section.setup h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white11);
+    padding-bottom: 18px ;
+}
+
+section.setup .desc p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--color11-1);
+    max-width: 284px;
+    margin:0 auto;
+}
+
+
+/*  styling information section*/
+section.information .text-information{
+    padding: 134px 0;
+}
+
+section.information h5{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--white11);
+}
+
+section.information p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--color11-1);
+    padding-top: 20px;
+}
+
+/* styling the footer section */
+
+footer{
+    padding-top: 279px;
+    margin-bottom: 44px;
+}
+
+footer a{
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--white11);
+    line-height: 18px;
+}
