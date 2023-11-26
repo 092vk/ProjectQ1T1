@@ -3,7 +3,7 @@ const sendButton = document.querySelector("#send-btn");
 const chatContainer = document.querySelector(".chat-container");
 
 let userText = null;
-const API_KEY ="";
+const API_KEY ="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";
 
 const createElement = (html, className) => {
   //create new div and apply chat , specified class and set html content of div
@@ -28,10 +28,8 @@ const getChatResponse = async (incomingChatDiv)=>{
         body:JSON.stringify({
             "model": "text-davinci-003",
             "prompt": userText,
-            "max_tokens": 2000,
-            "temperature": 0.2,
-            n:1,
-            stop:null
+            "max_tokens": 500,
+            "temperature": 0.1,
         })
     }
 

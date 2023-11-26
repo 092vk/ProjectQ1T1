@@ -13,6 +13,8 @@
 body{
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: #252839;
+    box-sizing: border-box;
+    overflow:auto;
 }
 
 .btn{
@@ -177,11 +179,157 @@ section.information p{
 footer{
     padding-top: 279px;
     margin-bottom: 44px;
+    margin-top: 15vh;
+    background-color: #33374c;
+    border-radius: 35px;
 }
-
+footer .container h2{
+    color: white;
+    position: relative;
+    bottom: 25vh;
+    left: 12vw;
+    font-size: 3rem;
+    font-weight: 600;
+}
+footer .container p{
+    position: relative;
+    bottom: 24vh;
+    left:4vw;
+    font-size: 1.5rem;
+    text-align: center;
+}
 footer a{
     font-weight: bold;
     font-size: 14px;
     color: var(--white11);
     line-height: 18px;
+    padding: 0.4rem;
+}
+
+footer button{
+    height:5vh ;
+    width: 8vw;
+    margin-left: 2vw;
+    font-size:2vh ;
+    position: relative;
+    bottom: 18vh;
+    left: 20vw;
+    background-color: #2045d6;
+    color: white;
+    border-radius: 10px;
+}
+footer button:hover{
+    background-color: #252839;
+}
+footer span{
+    color: white;
+    position: relative;
+    bottom: 6vh;
+    right: 1vw;
+    font-size:1.5 ;
+}
+
+/* decorating the hero image  */
+.setup img{
+    position: relative;
+    left: 20vw;
+    height: ;
+    width: ;
+}
+
+
+
+/* targeting the cards */
+#info-1{
+    border: 3px solid rgb(134, 112, 224);
+    border-radius: 50px;
+    width: 75rem;
+    height: 30rem;
+    background-color: white;
+    display: flex;
+}
+#info-1a{
+    border: 2px solid rgb(163, 131, 224);
+    border-radius: 50px;
+    height: 18rem;
+    width: 35rem;
+    position: relative;
+    top: 10vh;
+    left:3vw;
+    padding: 0;
+    background-color:skyblue;
+    color: blue;
+    transition: transform 1 ease-in-out;
+}
+#info-1a:hover{
+    transform: scale(1.1); 
+    border: 3px solid rgb(4, 4, 89);
+    
+}
+#info-1a h5{
+    text-align: center;
+    padding-top: 4vh;
+}
+#info-1a p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+#info-1 img{
+    border-radius: 50px;
+    height:35vh ;
+    width: 20vw;
+    position: relative;
+    top: 7vh;
+    left: 8vw;
+    transition: transform 0.8 ease-in-out;
+}
+#info-1 img:hover{
+    transform: scale(1.2); 
+    border: 3px solid yellow;
+}
+
+
+#info-2{
+    border: 3px solid rgb(134, 112, 224);
+    border-radius: 50px;
+    width: 75rem;
+    height: 30rem;
+    background-color: white;
+    display: flex;
+}
+#info-2 img{
+    border-radius: 50px;
+    height:35vh ;
+    width: 20vw;
+    position: relative;
+    top: 7vh;
+    left: 8vw;
+    transition: transform 0.8 ease-in-out;
+}
+#info-2 img:hover{
+    transform: scale(1.2); 
+    border: 3px solid yellow;
+}
+
+#info-3{
+    border: 3px solid rgb(134, 112, 224);
+    border-radius: 50px;
+    width: 75rem;
+    height: 30rem;
+    background-color: white;
+    display: flex;
+}
+#info-3 img{
+    border-radius: 50px;
+    height:35vh ;
+    width: 20vw;
+    position: relative;
+    top: 7vh;
+    left: 8vw;
+    transition: transform 0.8 ease-in-out;
+}
+#info-3 img:hover{
+    transform: scale(1.2); 
+    border: 3px solid yellow;
 }
