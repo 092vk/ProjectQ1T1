@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farmy/chatbot</title>
     <link rel="stylesheet" href="./chatbot.css">
+    <link rel="icon" href="../src/logo.png">
+
+    <!-- google fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 </head>
 <body>
-    <h2>wELCOME TO CHATBOT</h2>
+    <!-- chat container -->
+    <div class="chat-container">
+    </div>
 
+    <!-- typing container -->
+    <div class="typing-container">
+        <div class="typing-content">
+            <div class="typing-textarea">
+                <textarea id="chat-input" placeholder="Enter your Prompt here" required></textarea>
+                <span id="send-btn" class="material-symbols-outlined">send</span>
+            </div>
+            <div class="typing-controls">
+                <span id="theme-btn" class="material-symbols-outlined">brightness_4</span>
+                <span id="delete-btn" class="material-symbols-outlined">delete</span>
+
+            </div>
+        </div>
+    </div>
     <script src="./chatGpt.js"></script>
 </body>
 </html>
