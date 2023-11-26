@@ -1,0 +1,4 @@
+API_KEY="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";
+
+
+official account key:"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";
