@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+#about{
+    background-color: rgb(190, 140, 236);
+    overflow: hidden;
+    width: 120rem;
+    height: 30rem;
+}
+h1{
+    color: black;
+    font-size: 8rem;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+    top: 8rem;
+    left: 22rem;
+
+
+}
+#p{
+    background-color: rgb(237, 181, 108);
+    position: relative;
+    top: -8rem;
+    left: 22rem;
+    right: 2rem;
+    bottom: ;
+    height: 25rem;
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+}
+#p p{
+    color: ;
+    font-size: 2rem;
+}
+footer{
+    padding-top: 279px;
+    margin-bottom: 44px;
+    margin-top: 15vh;
+    background-color: #33374c;
+    border-radius: 35px;
+    text-align: center;
+}
+footer .container h2{
+    color: white;
+    position: relative;
+    bottom: 25vh;
+    left: 1vw;
+    font-size: 3rem;
+    font-weight: 600;
+}
+footer .container p{
+    position: relative;
+    bottom: 24vh;
+    left:4vw;
+    font-size: 1.5rem;
+    text-align: center;
+}
+footer a{
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--white11);
+    line-height: 18px;
+    padding: 0.4rem;
+}
+
+footer button{
+    height:5vh ;
+    width: 8vw;
+    margin-left: 2vw;
+    font-size:2vh ;
+    position: relative;
+    bottom: 18vh;
+    left: 4vw;
+    background-color: #2045d6;
+    color: white;
+    border-radius: 10px;
+}
+footer button:hover{
+    background-color: #252839;
+}
+footer span{
+    color: white;
+    position: relative;
+    bottom: 6vh;
+    right: 8vw;
+    font-size:1.5 ;
+}
+footer p{
+    color: white;
+}
