@@ -6,7 +6,7 @@ body{
 
 }
 #about{
-    background-color: rgb(190, 140, 236);
+    background-color: #7876ee;
     overflow: hidden;
     width: 120rem;
     height: 30rem;
@@ -23,7 +23,7 @@ h1{
 
 }
 #p{
-    background-color: rgb(237, 181, 108);
+    background-color: #8B93FF;
     position: relative;
     top: -8rem;
     left: 22rem;
@@ -38,7 +38,7 @@ h1{
     border-radius: 50px;
 }
 #p p{
-    color: ;
+    color:white ;
     font-size: 2rem;
 }
 footer{
