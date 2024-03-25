@@ -1,9 +1,13 @@
 body{
     margin: 0;
-
+    
+}
+.body{
+    background-color: aqua;
 }
 .abc{
     /* display: flex; */
+    
 
 }
 .card1{
